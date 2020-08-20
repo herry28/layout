@@ -1,0 +1,14 @@
+a{
+    display: block;
+    width: 230px;
+    height: 40px;
+    background-color: pink;
+    color:white;
+    text-decoration: none;
+    text-indent: 2em;
+    line-height: 40px;
+   
+}
+a:hover{
+    background-color: turquoise;
+}

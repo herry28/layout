@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';/*名字可以自己取*/
+            src:  url('../fonts/icomoon.eot?7kkyc2');
+            src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+                url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+                url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+                url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+        span{
+            font-family: icomoon;
+            color: pink;
+            font-size: 60px;
+        }
+        .box{
+            position: relative;
+            width: 200px;
+            height: 100px;
+            background-color: pink;
+        }
+        .box::after{
+            position: absolute;
+            top: 0;
+            right: 10px;
+            font-family: icomoon;
+            content: '';
+
+        }
+    </style>
+</head>
+<body>
+    <div class='box'>
+        
+    </div>
+   
+</body>
+</html>

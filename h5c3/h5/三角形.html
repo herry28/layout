@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 0;
+            height: 0;
+            border: 50px solid transparent;
+            border-top-color:pink ;
+        }
+        .jd{
+            position: relative;
+            width: 300px;
+            height: 300px;
+            background-color: pink;
+        }
+        .jd span{
+            position: absolute;
+            right: 15px;
+            top:-40px;
+            width: 0;
+            height: 0;
+            border: 20px solid transparent;
+            border-bottom-color: skyblue;
+        }
+      .price{
+          width: 160px;
+          height: 24px;
+          border: 1px solid red;
+          margin: 10px;
+          line-height: 24px;
+      }
+      .miaosha{
+          position: relative;
+          float: left;
+          width: 90px;
+          height:100%;
+          background-color: red;
+          text-align: center;
+          color: #fff;
+          font-weight: 700;
+          margin-right: 8px;
+      }
+      .miaosha i{
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 0;
+          height: 0;
+          border-color: transparent#fff transparent transparent;
+          border-style: solid;
+          border-width: 24px 10px 0 0;
+      }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <!-- 等边三角形 -->
+    <div class="jd">
+        <span></span>
+    </div>
+    <!-- 直角三角形 -->
+    <div class="price">
+        <span class="miaosha">1650
+            <i></i>
+        </span>
+        <span >5650</span>
+    </div>
+   
+    
+</body>
+</html>
